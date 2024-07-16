@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Go Mono:size=10";
+static char *font = "GoMono Nerd Font:size=11";
 static int borderpx = 2;
 
 /*
@@ -94,26 +94,50 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* GRUVBOX */
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+//	[1] = "#cc241d", /* red     */
+//	[2] = "#98971a", /* green   */
+//	[3] = "#d79921", /* yellow  */
+//	[4] = "#458588", /* blue    */
+//	[5] = "#b16286", /* magenta */
+//	[6] = "#689d6a", /* cyan    */
+//	[7] = "#a89984", /* white   */
+//
+//	/* 8 bright colors */
+//	[8]  = "#928374", /* black   */
+//	[9]  = "#fb4934", /* red     */
+//	[10] = "#b8bb26", /* green   */
+//	[11] = "#fabd2f", /* yellow  */
+//	[12] = "#83a598", /* blue    */
+//	[13] = "#d3869b", /* magenta */
+//	[14] = "#8ec07c", /* cyan    */
+//	[15] = "#ebdbb2", /* white   */
+//};
+
 static const char *colorname[] = {
+	/* TOMORROW NIGHT */
 	/* 8 normal colors */
-	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#cc241d", /* red     */
-	[2] = "#98971a", /* green   */
-	[3] = "#d79921", /* yellow  */
-	[4] = "#458588", /* blue    */
-	[5] = "#b16286", /* magenta */
-	[6] = "#689d6a", /* cyan    */
-	[7] = "#a89984", /* white   */
+	[0] = "#1d1f21", /* black   */
+	[1] = "#cc6666", /* red     */
+	[2] = "#b5bd68", /* green   */
+	[3] = "#f0c674", /* yellow  */
+	[4] = "#81a2be", /* blue    */
+	[5] = "#b294bb", /* magenta */
+	[6] = "#8abeb7", /* cyan    */
+	[7] = "#c5c8c6", /* white   */
 
 	/* 8 bright colors */
-	[8]  = "#928374", /* black   */
-	[9]  = "#fb4934", /* red     */
-	[10] = "#b8bb26", /* green   */
-	[11] = "#fabd2f", /* yellow  */
-	[12] = "#83a598", /* blue    */
-	[13] = "#d3869b", /* magenta */
-	[14] = "#8ec07c", /* cyan    */
-	[15] = "#ebdbb2", /* white   */
+	[8]  = "#969896", /* black   */
+	[9]  = "#cc6666", /* red     */
+	[10] = "#b5bd68", /* green   */
+	[11] = "#f0c674", /* yellow  */
+	[12] = "#81a2be", /* blue    */
+	[13] = "#b294bb", /* magenta */
+	[14] = "#8abeb7", /* cyan    */
+	[15] = "#ffffff", /* white   */
 };
 
 
